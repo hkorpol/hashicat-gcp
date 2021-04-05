@@ -18,14 +18,6 @@ variable "region" {
   default     = "us-central1"
 }
 
-variable "department" {
-  description = "The region."
-}
-
-variable "billable" {
-  description = "The region."
-}
-
 variable "zone" {
   description = "The zone where the resources are created."
   default     = "us-central1-b"
